@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SyneMono-Regular";
+    outline: none;
+}
+
+@font-face {
+    font-family: "SyneMono-Regular";
+    src: url(../Fonts/SyneMono-Regular.ttf);
+}
+
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 40px;
+
+}
+.blue{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border: transparent;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
